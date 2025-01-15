@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Set Flutter version
-FLUTTER_VERSION="3.24.5-stable"  # Change to the desired version
+FLUTTER_VERSION="3.24.5"  # Change to the desired version
 
 # Install Flutter
 echo "Installing Flutter..."
