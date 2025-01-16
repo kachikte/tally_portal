@@ -8,5 +8,9 @@ echo "Installing Flutter..."
 git clone https://github.com/flutter/flutter.git -b $FLUTTER_VERSION
 export PATH="$PATH:$(pwd)/flutter/bin"
 
+echo "Installing dependencies..."
+sudo apt-get update
+sudo apt-get install clang libgtk-3-dev google-chrome-stable -y
+
 # Verify installation
 flutter doctor
