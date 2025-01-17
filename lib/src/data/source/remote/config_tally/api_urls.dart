@@ -5,7 +5,7 @@ class ApiUrls {
   static const baseUrlTest = "http://127.0.0.1:3000";
   static const baseUrlTest2 = "localhost:3000";
   static const baseUrlLive = "api.tallyride.com";
-  static const url = baseUrlTest;
+  static const url = baseUrlLocal;
 
   //Semi Base URL definitions
   // static const baseUrlV1 = "$url/customer/api/v1";
